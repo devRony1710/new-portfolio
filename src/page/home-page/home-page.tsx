@@ -1,4 +1,5 @@
 import BackgroundGridImages from '@/assets/grid-background-new-portfolio.png';
+import { LeftSideTemplate } from '@/templates/left-side-template/left-side-template';
 
 export const HomePage = () => {
   return (
@@ -7,7 +8,7 @@ export const HomePage = () => {
       <img src={BackgroundGridImages} alt="Background Grid" className="w-full h-full absolute object-cover inset-0" />
 
       {/* left */}
-      <section className="w-[536px] h-full bg-red-500 z-[1]"></section>
+      <LeftSideTemplate />
       {/* right */}
       <section className="flex-1 h-full bg-blue-500 z-[2]"></section>
     </main>
