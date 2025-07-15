@@ -1,7 +1,7 @@
-import { MainLayout } from '@/layouts/main-layout/main-layout';
+import { HomePage } from '@/page/home-page/home-page';
 
 function App() {
-  return <MainLayout />;
+  return <HomePage />;
 }
 
 export default App;
