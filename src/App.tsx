@@ -1,11 +1,7 @@
-import { Test } from '@/components/Test';
+import { MainLayout } from '@/layouts/main-layout/main-layout';
 
 function App() {
-  return (
-    <>
-      <Test />
-    </>
-  );
+  return <MainLayout />;
 }
 
 export default App;
