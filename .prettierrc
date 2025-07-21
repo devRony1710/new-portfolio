@@ -4,5 +4,8 @@
   "printWidth": 256,
   "tabWidth": 2,
   "trailingComma": "none",
-  "endOfLine": "auto"
+  "endOfLine": "auto",
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "singleAttributePerLine": false
 }
