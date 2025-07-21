@@ -23,7 +23,7 @@ export const JobsCard: FC<JobsCardProps> = ({ from, to, title, company, descript
 
         <div className="flex w-full gap-[1rem] items-center">
           {technologies.map((technology, index) => (
-            <span key={index} className="text-[1rem] text-[#3ED597] bg-[#145C4C] font-bold px-[1rem] py-[0.5rem] rounded-[1rem]">
+            <span key={index} className="text-[1rem] text-textGreen bg-bgPrimary font-bold px-[1rem] py-[0.5rem] rounded-[1rem]">
               {technology}
             </span>
           ))}

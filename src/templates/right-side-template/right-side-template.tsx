@@ -1,6 +1,7 @@
 import { AboutMe } from '@/data/about-me';
 import { JobsSection } from '../jobs-section/jobs-sections';
 import './right-side-template.module.css';
+import { ProjectsSection } from '../projects-section/projects-section';
 
 const ParagraphAboutMe = () => {
   return (
@@ -19,6 +20,7 @@ export const RightSideTemplate = () => {
     <section className="flex-1 h-full flex flex-col gap-[2rem] bg-transparent z-[2] p-[96px] font-inter overflow-y-auto">
       <ParagraphAboutMe />
       <JobsSection />
+      <ProjectsSection />
     </section>
   );
 };

@@ -2,5 +2,7 @@
 
 @theme {
   --color-primary: #082832;
+  --color-bgPrimary: #145c4c;
+  --color-textGreen: #3ed597;
   --font-inter: 'Inter', sans-serif;
 }
