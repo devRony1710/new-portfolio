@@ -8,7 +8,7 @@ import { createContext, useEffect, useMemo, useState } from 'react';
 interface AppContextType {
   userInfo: null | UserInfo;
   isLoadingUserInfo: boolean;
-  reposInfo: null | unknown;
+  reposInfo: null | ReposInfoContract[];
   isLoadingReposInfo: boolean;
 }
 
@@ -48,7 +48,7 @@ export const AppContextProvider = ({ children }: { children: React.ReactNode }) 
       reposInfo: bestFourRepos,
       isLoadingReposInfo: isLoadingReposInfo
     };
-  }, [userInfo, reposInfo, isLoadingUserInfo, isLoadingReposInfo]);
+  }, [userInfo, bestFourRepos, isLoadingUserInfo, isLoadingReposInfo, reposInfo]);
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
 };
