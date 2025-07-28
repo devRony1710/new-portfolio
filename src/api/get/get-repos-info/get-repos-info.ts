@@ -6,6 +6,7 @@ export interface ReposInfoContract {
   name: string;
   description: string;
   homepage: string;
+  svn_url: string;
 }
 
 export const getReposInfo = async (): Promise<ReposInfoContract[]> => {

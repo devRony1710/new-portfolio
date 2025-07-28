@@ -5,7 +5,7 @@ export const LeftSideTemplate = () => {
         <span className="text-[3rem] text-white font-bold">Rony Antolinez</span>
         <span className="text-[1.5rem] text-white font-bold">Front End Engineer</span>
 
-        <p className="text-[1rem] text-zinc-400 font-medium">Aquí escribiré algo luego</p>
+        <p className="text-[1rem] text-zinc-400 font-medium">Bienvenidos a mi portafolio. Aquí encontrarás información sobre mis proyectos y experiencia laboral.</p>
       </div>
     </section>
   );
